@@ -1,0 +1,24 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+    <beans profile="h2, default">
+
+        <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+            <property name="location">
+                <value>classpath:dbH2.properties</value>
+            </property>
+        </bean>
+
+        <bean id="dataSource"
+              class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+
+            <property name="driverClassName" value="${dbH2.driverClassName}"/>
+            <property name="url" value="${dbH2.url}"/>
+            <property name="username" value="${dbH2.username}"/>
+
+        </bean>
+
+    </beans>
+</beans>
