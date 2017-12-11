@@ -2,7 +2,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Internet-shop of computer equipment</title>
+	<title>Category</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Animate.css -->
@@ -31,24 +31,28 @@
 			<div id="fh5co-blog-section">
 				<div class="container">
 					<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
-						<div class="fh5co-intro animate-box row">
-							<h2 class="text-center">Select category</h2>
-							<div class="form-group">
-								<select class="btn select-activate" id="select-category"
-									onchange="get_products_by_category()">
-								</select>
+						<div class="fh5co-intro animate-box">
+							<h3 class="text-center">Add new category</h3>
+							<div class="animate-box">
+								<div class="form-group">
+									<input class="form-control" id="newCategory" placeholder="Enter new category"
+										   oninput="check_color(this)">
+									<input type="Add" class="btn btn-send-message btn-md"
+										   value="Add" onclick="add_category()">
+									<input type="Refresh" class="btn btn-send-message btn-md"
+										   value="Refresh" onclick="get_category()">
+								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="fh5co-blog animate-box">
-							<table class="table table-bordered" id="tableOfProducts"
+							<table class="table table-bordered" id="tableOfCategory"
 								   border="1" width="100%" cellpadding="5">
 								<thead class="thead-dark">
 								<tr>
-									<th>Title</th>
-									<th>Cost</th>
-									<th>Description</th>
+									<th>CategoryId</th>
+									<th>Category</th>
 								</tr>
 								</thead>
 							</table>
@@ -76,8 +80,8 @@
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
-	<script src="ajax/index.js"></script>
+	<script src="ajax/category.js"></script>
 
-</body>
+	</body>
 </html>
 

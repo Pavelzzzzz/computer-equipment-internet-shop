@@ -26,6 +26,7 @@
                     <ul class="fh5co-sub-menu">
                         <li><a href="users.jsp">Users</a></li>
                         <li><a href="roles.jsp">Roles</a></li>
+                        <li><a href="category.jsp">Category</a></li>
                         <li><a href="products.jsp">Products</a></li>
                     </ul>
                 </li>

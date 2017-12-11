@@ -1,4 +1,3 @@
 INSERT INTO tblSECCategory (`CategoryId`, `Category`)
-    VALUES ( '1', 'Phone');
-
+    VALUES ( '1', 'keyboard');
 

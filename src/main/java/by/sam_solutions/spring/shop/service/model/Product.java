@@ -2,82 +2,82 @@ package by.sam_solutions.spring.shop.service.model;
 
 public class Product {
 
-    private Long ProductId;
-    private Long CategoryId;
-    private String Title;
-    private int CostInteger;
-    private int CostFractional;
-    private String Text;;
+    private Long productId;
+    private Long categoryId;
+    private String title;
+    private int costInteger;
+    private int costFractional;
+    private String text;;
 
     public Product() {
     }
 
     public Product(Long productId, Long categoryId, String title, int costInteger, int costFractional, String text) {
-        ProductId = productId;
-        CategoryId = categoryId;
-        Title = title;
-        CostInteger = costInteger;
-        CostFractional = costFractional;
-        Text = text;
+        this.productId = productId;
+        this.categoryId = categoryId;
+        this.title = title;
+        this.costInteger = costInteger;
+        this.costFractional = costFractional;
+        this.text = text;
     }
 
     public Long getProductId() {
-        return ProductId;
+        return productId;
     }
 
     public void setProductId(Long productId) {
-        ProductId = productId;
+        this.productId = productId;
     }
 
     public Long getCategoryId() {
-        return CategoryId;
+        return categoryId;
     }
 
     public void setCategoryId(Long categoryId) {
-        CategoryId = categoryId;
+        this.categoryId = categoryId;
     }
 
     public String getTitle() {
-        return Title;
+        return title;
     }
 
     public void setTitle(String title) {
-        Title = title;
+        this.title = title;
     }
 
     public int getCostInteger() {
-        return CostInteger;
+        return costInteger;
     }
 
     public void setCostInteger(int costInteger) {
-        CostInteger = costInteger;
+        this.costInteger = costInteger;
     }
 
     public int getCostFractional() {
-        return CostFractional;
+        return costFractional;
     }
 
     public void setCostFractional(int costFractional) {
-        CostFractional = costFractional;
+        this.costFractional = costFractional;
     }
 
     public String getText() {
-        return Text;
+        return text;
     }
 
     public void setText(String text) {
-        Text = text;
+        this.text = text;
     }
 
     @Override
     public String toString() {
         return "Product{" +
-                "ProductId=" + ProductId +
-                ", CategoryId=" + CategoryId +
-                ", Title='" + Title + '\'' +
-                ", CostInteger=" + CostInteger +
-                ", CostFractional=" + CostFractional +
-                ", Text='" + Text + '\'' +
+                "productId=" + productId +
+                ", categoryId=" + categoryId +
+                ", title='" + title + '\'' +
+                ", costInteger=" + costInteger +
+                ", costFractional=" + costFractional +
+                ", text='" + text + '\'' +
                 '}';
     }
 }

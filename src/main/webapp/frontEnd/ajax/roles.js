@@ -1,8 +1,13 @@
 document.addEventListener("DOMContentLoaded", get_roles());
 
 function get_roles (){
-    for (var i = 1; i < $("#tableOfRoles")[0].getElementsByTagName('tr').length; i++){
-        $("#tableOfRoles")[0].deleteRow(i);
+
+
+    var rows = $("#tableOfRoles")[0].getElementsByTagName('tr').length;
+    alert(rows);
+    for (var i = 1; i < rows; i++){
+        alert(i);
+        $("#tableOfRoles")[0].deleteRow(1);
     }
 
     $.ajax({
