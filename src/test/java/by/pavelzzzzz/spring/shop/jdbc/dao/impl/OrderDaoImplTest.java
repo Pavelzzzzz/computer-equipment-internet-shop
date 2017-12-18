@@ -1,7 +1,8 @@
 package by.pavelzzzzz.spring.shop.jdbc.dao.impl;
 
-import by.pavelzzzzz.spring.shop.jdbc.dao.CategoryDao;
-import by.pavelzzzzz.spring.shop.jdbc.model.CategoryTbl;
+import by.pavelzzzzz.spring.shop.jdbc.dao.OrderDao;
+import by.pavelzzzzz.spring.shop.jdbc.model.OrderTbl;
+import by.pavelzzzzz.spring.shop.jdbc.model.UserTbl;
 import org.junit.After;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,15 +16,15 @@ import org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
-
+import static org.junit.Assert.assertTrue;
 
 @ContextConfiguration(locations = {"classpath:Spring-Module.xml",
         "classpath:database/Flyway_Spring-DataSourceH2.xml"})
-public class CategoryDaoImplTest extends AbstractJUnit4SpringContextTests {
+public class OrderDaoImplTest extends AbstractJUnit4SpringContextTests {
 
     @Autowired
-    @Qualifier("categoryDao")
-    private CategoryDao categoryDao;
+    @Qualifier("orderDao")
+    private OrderDao orderDao;
 
     @After
     public void tearDown(){
@@ -31,44 +32,50 @@ public class CategoryDaoImplTest extends AbstractJUnit4SpringContextTests {
                 new ResourceDatabasePopulator();
         tables.addScript(new ClassPathResource("sql_script/clean_tables.sql"));
         tables.addScript(new ClassPathResource("sql_script/insert_data.sql"));
-        DatabasePopulatorUtils.execute(tables, categoryDao.getDataSource());
+        DatabasePopulatorUtils.execute(tables, orderDao.getDataSource());
     }
 
     @Test
-    public void getAllCategory() {
-        assertEquals(1, categoryDao.getAllCategory().size());
+    public void getAllOrders() {
+        assertEquals(1,
+                orderDao.getAllOrders().size());
+    }
+
+    @Test
+    public void getAllOrdersByCategory() {
+        assertEquals(1,
+                orderDao.getAllOrdersByUser(
+                        new UserTbl(1L, null, null, false)).size());
     }
 
     @Test
     public void findById() {
-        assertNotNull(categoryDao.findById(1L));
-    }
-
-    @Test
-    public void findByName() {
-        assertNotNull(categoryDao.findByName("Phone"));
+        assertNotNull(orderDao.findById(1L));
     }
 
     @Test
     public void insert() {
-        String testCategory = "Test category";
-        categoryDao.insert(new CategoryTbl(2L, testCategory));
-        assertNotNull(categoryDao.findByName(testCategory));
+        orderDao.insert(new OrderTbl(null,
+                1L,
+                1L,
+                "test phone",
+                "test address",
+                16L));
+        assertEquals(2, orderDao.getAllOrders().size());
     }
 
     @Test
     public void update() {
-        CategoryTbl foundCategory = categoryDao.findByName("Phone");
-        String testCategory = "Test category";
-        foundCategory.setCategory(testCategory);
-        categoryDao.update(foundCategory);
-        assertNotNull(categoryDao.findByName(testCategory));
+        OrderTbl foundOrder = orderDao.findById(1L);
+        foundOrder.setAddress("Сhanged address");
+        orderDao.update(foundOrder);
+        assertTrue(orderDao.findById(1L).getAddress().equals("Сhanged address"));
     }
 
     @Test
     public void delete() {
-        categoryDao.delete(categoryDao.findById(1L));
-        assertNull(categoryDao.findById(1L));
+        orderDao.delete(orderDao.findById(1L));
+        assertNull(orderDao.findById(1L));
     }
 
 }

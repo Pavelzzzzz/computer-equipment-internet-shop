@@ -16,6 +16,16 @@ public class UserTbl {
     private String email;
     private boolean isActive = false;
 
+    public UserTbl(Long userId, String login, String email, boolean isActive) {
+        this.userId = userId;
+        this.login = login;
+        this.email = email;
+        this.isActive = isActive;
+    }
+
+    public UserTbl() {
+    }
+
     public Long getUserId() {
         return userId;
     }

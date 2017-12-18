@@ -15,3 +15,6 @@ VALUES ( '1', 'Phone');
 
 INSERT INTO tblSECProduct (`ProductId`, `CategoryId`, `Title`, `CostInteger`, `CostFractional`, `Text`)
 VALUES ('1', '1', 'Title',  '15', '10', 'Some very interesting text');
+
+INSERT INTO tblSECOrder (`OrderId`, `ProductId`, `UserId`, `Phone`, `Address`, `Count`)
+VALUES ('1', '1', '1',  '1011010', 'Lenina 57', '3');

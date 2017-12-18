@@ -7,7 +7,7 @@ public class Product {
     private String title;
     private int costInteger;
     private int costFractional;
-    private String text;;
+    private String text;
 
     public Product() {
     }

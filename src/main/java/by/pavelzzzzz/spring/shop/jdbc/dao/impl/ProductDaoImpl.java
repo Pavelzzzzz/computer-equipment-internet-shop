@@ -22,9 +22,9 @@ public class ProductDaoImpl implements ProductDao {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ProductDaoImpl.class);
 
-    public static final String SQL_GET_ALL_NEWS = "SELECT * FROM " +
+    public static final String SQL_GET_ALL_PRODUCTS = "SELECT * FROM " +
             ProductTbl.TABLE_NAME + " ORDER BY " + ProductTbl.TITLE_COLUMN;
-    public static final String SQL_GET_ALL_NEWS_BY_CATEGORY = "SELECT * FROM " +
+    public static final String SQL_GET_ALL_PRODUCTS_BY_CATEGORY = "SELECT * FROM " +
             ProductTbl.TABLE_NAME + " WHERE " + ProductTbl.CATEGORY_ID_COLUMN + " = ? " +
             " ORDER BY " + ProductTbl.TITLE_COLUMN;
     public static final String SQL_FIND_BY_ID = "SELECT * FROM " +
@@ -63,7 +63,7 @@ public class ProductDaoImpl implements ProductDao {
     public Set<ProductTbl> getAllProducts(){
         Set<ProductTbl> resultSet = new LinkedHashSet<>();
         try(Connection connection = dataSource.getConnection();){
-            PreparedStatement statement = connection.prepareStatement(SQL_GET_ALL_NEWS);
+            PreparedStatement statement = connection.prepareStatement(SQL_GET_ALL_PRODUCTS);
             ResultSet rs = statement.executeQuery();
             while (rs.next()){
                 resultSet.add(new ProductTbl(
@@ -84,7 +84,7 @@ public class ProductDaoImpl implements ProductDao {
     public Set<ProductTbl> getAllProductsByCategory(CategoryTbl categoryTbl){
         Set<ProductTbl> resultSet = new LinkedHashSet<>();
         try(Connection connection = dataSource.getConnection();){
-            PreparedStatement statement = connection.prepareStatement(SQL_GET_ALL_NEWS_BY_CATEGORY);
+            PreparedStatement statement = connection.prepareStatement(SQL_GET_ALL_PRODUCTS_BY_CATEGORY);
             statement.setLong(1, categoryTbl.getCategoryId());
             ResultSet rs = statement.executeQuery();
             while (rs.next()){

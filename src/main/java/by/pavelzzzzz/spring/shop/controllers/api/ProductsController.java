@@ -15,7 +15,7 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/api/products")
-public class NewsController {
+public class ProductsController {
 
     @Autowired
     private ManagementProduct managementProduct;

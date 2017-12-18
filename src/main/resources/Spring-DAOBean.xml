@@ -30,4 +30,8 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
+    <bean id="orderDao" class="by.pavelzzzzz.spring.shop.jdbc.dao.impl.OrderDaoImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
 </beans>
