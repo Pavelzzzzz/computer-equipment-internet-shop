@@ -13,6 +13,28 @@
     <import resource="classpath:Spring-Module.xml"/>
 
     <mvc:annotation-driven/>
-    <context:component-scan base-package="by.sam_solutions.spring.shop.controllers"/>
-    <context:component-scan base-package="by.sam_solutions.spring.shop.service"/>
+    <context:component-scan base-package="by.pavelzzzzz.spring.shop.controllers"/>
+    <context:component-scan base-package="by.pavelzzzzz.spring.shop.service"/>
+
+    <bean class ="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--<mvc:interceptors>-->
+        <!--<mvc:interceptor>-->
+            <!--<mvc:mapping path="/"/>-->
+            <!--<ref bean="localeChangeInterceptor"/>-->
+        <!--</mvc:interceptor>-->
+    <!--</mvc:interceptors>-->
+    <mvc:resources mapping="/css/**" location="/frontEnd/css/" />
+    <mvc:resources mapping="/ajax/**" location="/frontEnd/ajax/" />
+    <mvc:resources mapping="/fonts/**" location="/frontEnd/fonts/" />
+    <mvc:resources mapping="/images/**" location="/frontEnd/images/" />
+    <mvc:resources mapping="/js/**" location="/frontEnd/js/" />
+
+    <!--<bean id="localeChangeInterceptor"-->
+          <!--class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">-->
+        <!--<property name="paramName" value="lang"/>-->
+    <!--</bean>-->
+
 </beans>

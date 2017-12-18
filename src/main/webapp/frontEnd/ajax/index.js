@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", on_boot());
 function on_boot() {
     $.ajax({
         type: 'GET',
-        url: '../api/category/',
+        url: 'api/category/',
         dataType: 'json',
         success : function(data) {
             console.log("SUCCESS: ", data.length);
@@ -33,7 +33,7 @@ function get_products_by_category(){
     }
     $.ajax({
         type: 'GET',
-        url: '../api/category/' + selectedCaterogyId+ '/products',
+        url: 'api/category/' + selectedCaterogyId+ '/products',
         dataType: 'json',
         success: function (data) {
             console.log("SUCCESS: ", data.length);
@@ -53,6 +53,6 @@ function get_products_by_category(){
     });
 };
 
-function go_to_role_editor(roleId) {
-    document.location = "role_editor.jsp?roleId=" + roleId;
-}
+// function go_to_role_editor(roleId) {
+//     document.location = "role_editor?roleId=" + roleId;
+// }

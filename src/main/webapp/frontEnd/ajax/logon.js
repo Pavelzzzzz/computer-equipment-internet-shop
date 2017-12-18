@@ -1,15 +1,14 @@
 function post_logon() {
     $.ajax({
         type: 'POST',
-        url: '../api/logon',
+        url: 'api/logon',
         data: {'login':$('#logonLogin').val(),
                'password':$('#logonPassword').val()},
         dataType: 'json',
         success : function(user) {
-            alert("Success");
             localStorage.setItem("user", JSON.stringify(user));
             console.log("SUCCESS:", user);
-            var url = '../api/users/' + user.userId + '/roles';
+            var url = 'api/users/' + user.userId + '/roles';
             $.ajax({
                 type: 'GET',
                 url: url,
@@ -24,8 +23,7 @@ function post_logon() {
                     localStorage.setItem("error", JSON.stringify(e));
                 }
             });
-            alert("Success");
-            window.location.href = "index.jsp";
+            window.location.href = "index";
         },
         error : function(e) {
             alert("Error");

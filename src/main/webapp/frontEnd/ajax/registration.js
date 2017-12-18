@@ -6,7 +6,7 @@ function post_registration() {
         $('#registrationPassword1').val() == $('#registrationPassword2').val()){
         $.ajax({
             type: 'POST',
-            url: '../api/registration',
+            url: 'api/registration',
             data: {'login':$('#registrationLogin').val(),
                 'email':$('#registrationEmail').val(),
                 'password':$('#registrationPassword1').val()},
@@ -14,7 +14,7 @@ function post_registration() {
             success : function(data) {
                 alert("Success");
                 localStorage.setItem("user", JSON.stringify(data));
-                window.location.href = "index.jsp";
+                window.location.href = "index";
                 console.log("Success: ", data);
             },
             error : function(e) {
