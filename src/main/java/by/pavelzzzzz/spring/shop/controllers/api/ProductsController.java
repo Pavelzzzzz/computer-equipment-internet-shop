@@ -30,6 +30,18 @@ public class ProductsController {
         return managementProduct.getAllProducts();
     }
 
+    @PostMapping("/{productId}")
+    public Product updateProduct(@PathVariable Long productId, Long categoryId, String title, int costInteger, int costFractional, String text) throws ServiceException {
+        Product foundProduct = managementProduct.findProductById(productId);
+        foundProduct.setCategoryId(categoryId);
+        foundProduct.setTitle(title);
+        foundProduct.setCostInteger(costInteger);
+        foundProduct.setCostFractional(costFractional);
+        foundProduct.setText(text);
+        managementProduct.updateProduct(foundProduct);
+        return managementProduct.findProductById(productId);
+    }
+
     @PostMapping()
     public Product addNewProduct(Long categoryId, String title, int costInteger, int costFractional, String text) throws ServiceException {
         managementProduct.addProduct(categoryId, title, costInteger, costFractional, text);

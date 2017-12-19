@@ -8,9 +8,8 @@ document.addEventListener("DOMContentLoaded", function (){
             localStorage.setItem("news", JSON.stringify(data));
             for (var i = 0; i < data.length; i++){
                 $("#tableOfNews")
-                    .append('<tr>' +
-                    // .append('<tr onclick="go_to_user_editor(' + data[i].userId + ')">' +
-                        '<td>' + data[i].newsId + '</td>' +
+                    .append('<tr onclick="go_to_product_editor(' + data[i].productId + ')">' +
+                        '<td>' + data[i].productId + '</td>' +
                         '<td>' + data[i].categoryId + '</td>' +
                         '<td>' + data[i].costInteger + '.' + data[i].costFractional + '</td>' +
                         '<td>' + data[i].title + '</td>' + '</tr>');
@@ -22,6 +21,6 @@ document.addEventListener("DOMContentLoaded", function (){
     });
 });
 
-// function go_to_user_editor(userId) {
-//     document.location = "user_editor.jsp?userId=" + userId;
-// }
+function go_to_product_editor(productId) {
+    document.location = "administration?pageName=product_editor&productId=" + productId;
+}

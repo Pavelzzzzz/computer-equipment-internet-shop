@@ -1,3 +1,5 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <nav class="navbar navbar-default" role="navigation">
@@ -11,16 +13,29 @@
             </button>
             <h2 id="fh5co-logo"><a href="index.jsp">Computer equipment<span>  internet-shop</span></a></h2>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <li class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav" id="fh5co-primary-menu">
                 <li>
                     <a href="${pageContext.request.contextPath}/index">Main</a>
                 </li>
 
                 <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
-                <li><a href="${pageContext.request.contextPath}/logon">Log in</a></li>
-                <li><a href="${pageContext.request.contextPath}/registration">Registration</a></li>
-                <li><a>Log out</a></li>
+                <c:if test="${pageContext.request.remoteUser == null}">
+                    <li><a href="${pageContext.request.contextPath}/logon">Log in</a></li>
+                    <li><a href="${pageContext.request.contextPath}/registration">Registration</a></li>
+                </c:if>
+
+
+
+                <form id="logoutForm" action="<c:url value="/j_spring_security_logout" />" method="post">
+                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                </form>
+
+                <c:if test="${pageContext.request.remoteUser != null}">
+                <li><a href="#" onclick="document.getElementById('logoutForm').submit();">Log out</a></li>
+                </c:if>
+
+
                 <li>
                     <a class="fh5co-sub-ddown">Administration</a>
                     <ul class="fh5co-sub-menu">

@@ -2,13 +2,9 @@ package by.pavelzzzzz.spring.shop.service.impl;
 
 import by.pavelzzzzz.spring.shop.exception.ServiceException;
 import by.pavelzzzzz.spring.shop.jdbc.dao.OrderDao;
-import by.pavelzzzzz.spring.shop.jdbc.dao.ProductDao;
-import by.pavelzzzzz.spring.shop.jdbc.model.CategoryTbl;
 import by.pavelzzzzz.spring.shop.jdbc.model.OrderTbl;
-import by.pavelzzzzz.spring.shop.jdbc.model.ProductTbl;
 import by.pavelzzzzz.spring.shop.jdbc.model.UserTbl;
 import by.pavelzzzzz.spring.shop.service.model.Order;
-import by.pavelzzzzz.spring.shop.service.model.Product;
 import by.pavelzzzzz.spring.shop.service.model.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,7 +18,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyLong;
-import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.when;
 

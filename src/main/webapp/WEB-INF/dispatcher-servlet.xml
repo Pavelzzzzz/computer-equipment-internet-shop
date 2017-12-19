@@ -26,6 +26,17 @@
             <!--<ref bean="localeChangeInterceptor"/>-->
         <!--</mvc:interceptor>-->
     <!--</mvc:interceptors>-->
+
+    <!--<mvc:interceptors>-->
+        <!--<bean id="webContentInterceptor"-->
+              <!--class="org.springframework.web.servlet.mvc.WebContentInterceptor">-->
+            <!--<property name="cacheSeconds" value="1"/>-->
+            <!--<property name="useExpiresHeader" value="true"/>-->
+            <!--<property name="useCacheControlHeader" value="true"/>-->
+            <!--<property name="useCacheControlNoStore" value="true"/>-->
+        <!--</bean>-->
+    <!--</mvc:interceptors>-->
+
     <mvc:resources mapping="/css/**" location="/frontEnd/css/" />
     <mvc:resources mapping="/ajax/**" location="/frontEnd/ajax/" />
     <mvc:resources mapping="/fonts/**" location="/frontEnd/fonts/" />
