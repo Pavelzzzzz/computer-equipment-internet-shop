@@ -25,17 +25,10 @@
                     <li><a href="${pageContext.request.contextPath}/registration">Registration</a></li>
                 </c:if>
 
-
-
-                <form id="logoutForm" action="<c:url value="/j_spring_security_logout" />" method="post">
-                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
-                </form>
-
                 <c:if test="${pageContext.request.remoteUser != null}">
                 <li><a href="#" onclick="document.getElementById('logoutForm').submit();">Log out</a></li>
                 </c:if>
-
-
+                
                 <li>
                     <a class="fh5co-sub-ddown">Administration</a>
                     <ul class="fh5co-sub-menu">

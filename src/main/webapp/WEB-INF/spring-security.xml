@@ -14,10 +14,10 @@
 		<form-login 
 		    login-page="/logon"
 		    default-target-url="/index"
-			authentication-failure-url="/login?error" 
+			authentication-failure-url="/logon?error"
 			username-parameter="username"
 			password-parameter="password" />
-		<logout logout-success-url="/login?logout"  />
+		<logout logout-success-url="/logon?logout"  />
 		<!-- enable csrf protection -->
 		<csrf/>
 	</http>
