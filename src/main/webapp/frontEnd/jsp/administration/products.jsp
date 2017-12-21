@@ -32,6 +32,13 @@
 				<div class="container">
 					<div class="col-md-12">
 						<div class="fh5co-blog animate-box">
+
+							<div class="form-group">
+								<input class="btn btn-send-message btn-md" style="float: right; width: 30%; margin-right: 2%"
+									   value="Add new product" onclick="go_to_add_new_product()">
+							</div>
+
+							<h1 class="text-center">Products</h1>
 							<table class="table table-bordered" id="tableOfNews"
 								   border="1" width="100%" cellpadding="5">
 								<thead class="thead-dark">

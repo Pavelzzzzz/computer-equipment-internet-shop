@@ -22,7 +22,8 @@ function on_boot() {
 };
 
 function get_products_by_category(){
-    for (var i = 1; i < $("#tableOfProducts")[0].getElementsByTagName('tr').length; i++){
+    var rowCount = $("#tableOfProducts")[0].getElementsByTagName('tr').length;
+    for (var i = 1; i < rowCount; i++){
         $("#tableOfProducts")[0].deleteRow(i);
     }
     var selectedCaterogyId;
@@ -33,19 +34,19 @@ function get_products_by_category(){
     }
     $.ajax({
         type: 'GET',
-        url: 'api/category/' + selectedCaterogyId+ '/products',
+        url: 'api/category/' + selectedCaterogyId + '/products',
         dataType: 'json',
         success: function (data) {
             console.log("SUCCESS: ", data.length);
             localStorage.setItem("products", JSON.stringify(data));
             for (var i = 0; i < data.length; i++) {
                 $("#tableOfProducts")
-                    .append('<tr onclick="go_to_ordering_products(' + data[i].productId + ')">' +
+                    .append( '<tr>' +
+                    //.append('<tr onclick="go_to_ordering_products(' + data[i].productId + ')">' +
                         '<td>' + data[i].title + '</td>' +
                         '<td>' + data[i].costInteger + '.' + data[i].costFractional + '</td>' +
                         '<td>' + data[i].text + '</td>' + '</tr>');
-            }
-            ;
+            };
         },
         error: function (error) {
             console.log("Error: " + error.status);

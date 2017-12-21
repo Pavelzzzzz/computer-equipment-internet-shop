@@ -32,6 +32,7 @@
 				<div class="container">
 					<div class="col-md-12">
 						<div class="fh5co-blog animate-box">
+							<h1 class="text-center">Users</h1>
 							<table class="table table-bordered" id="tableOfUsers"
 								   border="1" width="100%" cellpadding="5">
 								<thead class="thead-dark">

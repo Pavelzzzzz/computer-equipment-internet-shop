@@ -47,6 +47,7 @@
 					</div>
 					<div class="col-md-12">
 						<div class="fh5co-blog animate-box">
+							<h1 class="text-center">Categoty</h1>
 							<table class="table table-bordered" id="tableOfCategory"
 								   border="1" width="100%" cellpadding="5">
 								<thead class="thead-dark">

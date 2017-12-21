@@ -103,7 +103,7 @@ public class ManagementOrderImpl implements ManagementOrder {
         foundOrder.setAddress(order.getAddress());
         foundOrder.setCount(order.getCount());
 
-        orderDao.update(foundOrder);
+            orderDao.update(foundOrder);
 
         return 1;
     }

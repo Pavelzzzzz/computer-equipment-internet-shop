@@ -24,3 +24,7 @@ document.addEventListener("DOMContentLoaded", function (){
 function go_to_product_editor(productId) {
     document.location = "administration?pageName=product_editor&productId=" + productId;
 }
+
+function go_to_add_new_product(){
+    document.location = "administration?pageName=product_add";
+}

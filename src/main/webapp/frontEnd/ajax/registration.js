@@ -12,13 +12,11 @@ function post_registration() {
                 'password':$('#registrationPassword1').val()},
             dataType: 'json',
             success : function(data) {
-                alert("Success");
                 localStorage.setItem("user", JSON.stringify(data));
                 window.location.href = "index";
                 console.log("Success: ", data);
             },
             error : function(e) {
-                alert("Error");
                 console.log("Error: " + e.status);
                 if (e.status == 409){
                     $('#registrationLogin')[0].style.color = "red";

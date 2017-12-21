@@ -4,10 +4,10 @@ public class Order {
 
     private Long orderId;
     private Long productId;
+    private Long count;
     private Long userId;
     private String phone;
     private String address;
-    private Long count;
 
     public Order() {
     }

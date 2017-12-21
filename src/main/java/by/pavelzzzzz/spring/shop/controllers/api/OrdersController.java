@@ -45,14 +45,14 @@ public class OrdersController {
     }
 
     @PostMapping("/{orderId}")
-    public Order updateOrder(@PathVariable Long orderId, Long productId, Long userId, String phone, String address, Long cost) throws ServiceException {
+    public Order updateOrder(@PathVariable Long orderId, Long productId, Long userId, String phone, String address, Long count) throws ServiceException {
         managementOrder.updateOrder(new Order(
                 orderId,
                 productId,
                 userId,
                 phone,
                 address,
-                cost));
+                count));
         return managementOrder.findOrderById(orderId);
     }
 

@@ -117,13 +117,15 @@ public class ManagementProductImpl implements ManagementProduct {
             throw new ServiceException("This product is not found");
         }
 
-        if  ((productDao.findByTitle(product.getTitle()) != null) &
-                (productDao.findByTitle(product.getTitle()).getProductId() != product.getProductId())){
-            throw new ServiceException("This title already exists: " + product.getTitle());
-        }
+//        if  ((productDao.findByTitle(product.getTitle()) != null) &
+//                (productDao.findByTitle(product.getTitle()).getProductId() != product.getProductId())){
+//            throw new ServiceException("This title already exists: " + product.getTitle());
+//        }
 
         foundProduct.setCategoryId(product.getCategoryId());
         foundProduct.setTitle(product.getTitle());
+        foundProduct.setCostInteger(product.getCostInteger());
+        foundProduct.setCostFractional(product.getCostFractional());
         foundProduct.setText(product.getText());
 
         productDao.update(foundProduct);

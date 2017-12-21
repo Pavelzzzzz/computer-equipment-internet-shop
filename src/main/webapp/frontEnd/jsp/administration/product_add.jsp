@@ -2,7 +2,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>roles</title>
+	<title>Product_editor</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Animate.css -->
@@ -30,33 +30,42 @@
 		<div class="row">
 			<div id="fh5co-blog-section">
 				<div class="container">
-					<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
-						<div class="fh5co-intro animate-box">
-							<h3 class="text-center">Add new role</h3>
-							<div class="animate-box">
-								<div class="form-group">
-									<input class="form-control" id="newRole" placeholder="Enter new role"
-										   oninput="check_color(this)">
-									<input type="Add" class="btn btn-send-message btn-md"
-										   value="Add" onclick="add_role()">
-									<input type="Refresh" class="btn btn-send-message btn-md"
-										   value="Refresh" onclick="get_roles()">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
+							<div class="fh5co-intro fh5co-table-cell animate-box">
+								<h1 class="text-center">Add new product</h1>
+								<div class="animate-box">
+
+									<%--<div class="form-group">--%>
+										<%--<input class="form-control" id="category">--%>
+									<%--</div>--%>
+
+									<div class="form-group">
+										<input class="form-control" id="title">
+									</div>
+
+										<h2 class="text-center">Select category</h2>
+										<div class="form-group">
+											<select class="btn select-activate" id="select-category"
+													onchange="set_category()">
+											</select>
+										</div>
+
+									<div class="form-group">
+										<input class="form-control" style="float: left; width: 46%; margin-right: 4%; margin-left: 2%" id="costInteger">
+										<input class="form-control" style="width: 46%" id="costFractional">
+									</div>
+
+									<div class="form-group">
+										<textarea class="form-control" id="text"></textarea>
+									</div>
+
+									<div class="form-group">
+										<input type="Add" class="btn btn-send-message btn-md"
+											   value="Add" onclick="add_product()">
+									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="fh5co-blog animate-box">
-							<h1 class="text-center">Roles</h1>
-							<table class="table table-bordered" id="tableOfRoles"
-								   border="1" width="100%" cellpadding="5">
-								<thead class="thead-dark">
-								<tr>
-									<th>RoleId</th>
-									<th>Role</th>
-								</tr>
-								</thead>
-							</table>
 						</div>
 					</div>
 				</div>
@@ -81,7 +90,7 @@
 	<!-- Main JS (Do not remove) -->
 	<script src="${pageContext.request.contextPath}/js/main.js"></script>
 
-	<script src="${pageContext.request.contextPath}/ajax/administration/roles.js"></script>
+	<script src="${pageContext.request.contextPath}/ajax/administration/product_add.js"></script>
 
 	</body>
 </html>

@@ -14,7 +14,6 @@ function post_logon() {
                 url: url,
                 dataType: 'json',
                 success : function(roles) {
-                    alert("Success");
                     localStorage.setItem("roles", JSON.stringify(roles));
                     console.log("SUCCESS:", roles);
                 },
@@ -26,7 +25,6 @@ function post_logon() {
             window.location.href = "index";
         },
         error : function(e) {
-            alert("Error");
             console.log("Error: " + e.status);
             if (e.status == 404){
                 $('#logonLogin')[0].style.color = "red";
