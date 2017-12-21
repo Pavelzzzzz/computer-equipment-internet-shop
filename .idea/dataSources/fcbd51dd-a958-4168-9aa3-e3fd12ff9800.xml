@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="internet-shop@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="internet-shop">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="cibersite"/>
+    <schema id="4" parent="1" name="DataBaseFor4VarStudents"/>
+    <schema id="5" parent="1" name="information_schema"/>
+    <schema id="6" parent="1" name="ItransitionLab1"/>
+    <schema id="7" parent="1" name="mysql"/>
+    <schema id="8" parent="1" name="news_blog"/>
+    <schema id="9" parent="1" name="news_blog_test"/>
+    <schema id="10" parent="1" name="performance_schema"/>
+    <schema id="11" parent="1" name="phpmyadmin"/>
+    <schema id="12" parent="1" name="spring_security_app"/>
+    <schema id="13" parent="1" name="symfony-blog"/>
+    <schema id="14" parent="1" name="sys"/>
+    <schema id="15" parent="1" name="test"/>
+    <table id="16" parent="2" name="schema_version"/>
+    <table id="17" parent="2" name="tblSECCategory"/>
+    <table id="18" parent="2" name="tblSECOrder"/>
+    <table id="19" parent="2" name="tblSECPassword"/>
+    <table id="20" parent="2" name="tblSECProduct"/>
+    <table id="21" parent="2" name="tblSECRole"/>
+    <table id="22" parent="2" name="tblSECUser"/>
+    <table id="23" parent="2" name="tblSECUserRole"/>
+    <column id="24" parent="16" name="installed_rank">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="16" name="version">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="26" parent="16" name="description">
+      <Position>3</Position>
+      <DataType>varchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="16" name="type">
+      <Position>4</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="16" name="script">
+      <Position>5</Position>
+      <DataType>varchar(1000)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="16" name="checksum">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="30" parent="16" name="installed_by">
+      <Position>7</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="16" name="installed_on">
+      <Position>8</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="32" parent="16" name="execution_time">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="16" name="success">
+      <Position>10</Position>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="34" parent="16" name="schema_version_s_idx">
+      <ColNames>success</ColNames>
+    </index>
+    <key id="35" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>installed_rank</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="36" parent="17" name="CategoryId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="37" parent="17" name="Category">
+      <Position>2</Position>
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="38" parent="17" name="Category_UNIQUE">
+      <ColNames>Category</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="39" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CategoryId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="40" parent="17" name="Category_UNIQUE">
+      <ColNames>Category</ColNames>
+      <UnderlyingIndexName>Category_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="41" parent="18" name="OrderId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="42" parent="18" name="ProductId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="18" name="UserId">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="18" name="Phone">
+      <Position>4</Position>
+      <DataType>varchar(16)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="18" name="Address">
+      <Position>5</Position>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="18" name="Count">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="47" parent="18" name="Order_ProductId_FK">
+      <ColNames>ProductId</ColNames>
+    </index>
+    <index id="48" parent="18" name="Order_UserId_FK">
+      <ColNames>UserId</ColNames>
+    </index>
+    <key id="49" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>OrderId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="50" parent="18" name="Order_ProductId_FK">
+      <ColNames>ProductId</ColNames>
+      <RefSchemaName>internet-shop</RefSchemaName>
+      <RefTableName>tblSECProduct</RefTableName>
+      <RefColNames>ProductId</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="51" parent="18" name="Order_UserId_FK">
+      <ColNames>UserId</ColNames>
+      <RefSchemaName>internet-shop</RefSchemaName>
+      <RefTableName>tblSECUser</RefTableName>
+      <RefColNames>UserId</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="52" parent="19" name="UserId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="19" name="Password">
+      <Position>2</Position>
+      <DataType>varchar(256)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="54" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>UserId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="55" parent="19" name="Password_UserId_FK">
+      <ColNames>UserId</ColNames>
+      <RefSchemaName>internet-shop</RefSchemaName>
+      <RefTableName>tblSECUser</RefTableName>
+      <RefColNames>UserId</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="56" parent="20" name="ProductId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="57" parent="20" name="CategoryId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="20" name="Title">
+      <Position>3</Position>
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="20" name="CostInteger">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="20" name="CostFractional">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="20" name="Text">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="62" parent="20" name="Product_CategoryId_FK">
+      <ColNames>CategoryId</ColNames>
+    </index>
+    <key id="63" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ProductId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="64" parent="20" name="Product_CategoryId_FK">
+      <ColNames>CategoryId</ColNames>
+      <RefSchemaName>internet-shop</RefSchemaName>
+      <RefTableName>tblSECCategory</RefTableName>
+      <RefColNames>CategoryId</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="65" parent="21" name="RoleId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="66" parent="21" name="Role">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="67" parent="21" name="Role_UNIQUE">
+      <ColNames>Role</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="68" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>RoleId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="69" parent="21" name="Role_UNIQUE">
+      <ColNames>Role</ColNames>
+      <UnderlyingIndexName>Role_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="70" parent="22" name="UserId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="71" parent="22" name="Login">
+      <Position>2</Position>
+      <DataType>varchar(256)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="22" name="Email">
+      <Position>3</Position>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="73" parent="22" name="IsActive">
+      <Position>4</Position>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <index id="74" parent="22" name="Login_UNIQUE">
+      <ColNames>Login</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="75" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>UserId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="76" parent="22" name="Login_UNIQUE">
+      <ColNames>Login</ColNames>
+      <UnderlyingIndexName>Login_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="77" parent="23" name="UserId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="23" name="RoleId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="79" parent="23" name="UserRole_RoleId_FK">
+      <ColNames>RoleId</ColNames>
+    </index>
+    <key id="80" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>UserId
+RoleId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="81" parent="23" name="UserRole_UserId_FK">
+      <ColNames>UserId</ColNames>
+      <RefSchemaName>internet-shop</RefSchemaName>
+      <RefTableName>tblSECUser</RefTableName>
+      <RefColNames>UserId</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="82" parent="23" name="UserRole_RoleId_FK">
+      <ColNames>RoleId</ColNames>
+      <RefSchemaName>internet-shop</RefSchemaName>
+      <RefTableName>tblSECRole</RefTableName>
+      <RefColNames>RoleId</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,37 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <import resource="database/FlyWayComponent.xml"/>
+    <import resource="database/Spring-DataSourceMySQL.xml"/>
+
+    <bean id="userDao" class="by.pavelzzzzz.spring.shop.jdbc.dao.impl.UserDaoImpl">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <bean id="roleDao" class="by.pavelzzzzz.spring.shop.jdbc.dao.impl.RoleDaoImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="userRoleDao" class="by.pavelzzzzz.spring.shop.jdbc.dao.impl.UserRoleDaoImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="passwordDao" class="by.pavelzzzzz.spring.shop.jdbc.dao.impl.PasswordDaoImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="categoryDao" class="by.pavelzzzzz.spring.shop.jdbc.dao.impl.CategoryDaoImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="productDao" class="by.pavelzzzzz.spring.shop.jdbc.dao.impl.ProductDaoImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="orderDao" class="by.pavelzzzzz.spring.shop.jdbc.dao.impl.OrderDaoImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+</beans>
