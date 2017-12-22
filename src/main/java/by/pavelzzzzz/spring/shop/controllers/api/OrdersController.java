@@ -39,8 +39,8 @@ public class OrdersController {
     }
 
     @PostMapping()
-    public Order addNewUser(Long productId, Long userId, String phone, String address, Long cost) throws ServiceException {
-        managementOrder.addOrder(productId, userId, phone, address, cost);
+    public Order addNewUser(Long productId, Long userId, String phone, String address, Long count) throws ServiceException {
+        managementOrder.addOrder(productId, userId, phone, address, count);
         return managementOrder.getAllOrdersByUser(managementUser.findUserById(userId)).iterator().next();
     }
 

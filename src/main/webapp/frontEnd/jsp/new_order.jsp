@@ -2,7 +2,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Order_editor</title>
+	<title>New order</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Animate.css -->
@@ -24,7 +24,6 @@
 	<jsp:include page="/frontEnd/jsp/navigation.jsp" />
 
 </head>
-
 <body>
 
 	<div class="container-fluid">
@@ -34,43 +33,36 @@
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 							<div class="fh5co-intro fh5co-table-cell animate-box">
-								<h1 class="text-center">Order editor</h1>
+								<h1 class="text-center">New order</h1>
 								<div class="animate-box">
 
 									<div class="form-group">
-										<span class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%; font-size: 24px">Select user</span>
-										<select class="btn select-activate" style="width: 50%" id="select-user"
-												onchange="set_user()">
-										</select>
+										<span class="text-center" style="float:left; width: 50%; font-size: 24px">Selected user</span>
+										<span class="text-center" style="width: 50%; font-size: 24px" id="login">123</span>										</h2>
+									</div>
+
+									<div class="form-group" style="width: 100%; margin-bottom: 70px">
+										<span class="text-center" style="float:left; width: 50%; font-size: 24px">Selected product</span>
+										<span class="text-center" style="float: right; width: 50%; font-size: 24px" id="productTitle">123</span>
 									</div>
 
 									<div class="form-group" style="width: 100%">
-										<span class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%; font-size: 24px">Select product</span>
-										<select class="btn select-activate" style="width: 50%" id="select-product"
-												onchange="set_product()">
-										</select>
-									</div>
-
-									<div class="form-group" style="width: 100%">
-										<span class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%; font-size: 24px">Count</span>
+										<span class="text-center" style="float: left; width: 50%; font-size: 24px">Count</span>
 										<input class="form-control" style="width: 50%" id="count">
 									</div>
 
 									<div class="form-group">
-										<span class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%; font-size: 24px">Phone</span>
+										<span class="text-center" style="float: left; width: 50%; font-size: 24px">Phone</span>
 										<input class="form-control" style="width: 50%" id="phone">
 									</div>
 
 									<div class="form-group">
-										<input class="form-control" id="address">
+										<input class="form-control" id="address" placeholder="Address">
 									</div>
 
 									<div class="form-group">
-										<input type="Save" class="btn btn-send-message btn-md"
-											   value="Save" onclick="update_order()">
-
-										<input type="Delete" class="btn btn-send-message btn-md"
-											   value="Delete" onclick="delete_order()">
+										<input type="Add" class="btn btn-send-message btn-md"
+											   value="to order" onclick="add_order()">
 									</div>
 								</div>
 							</div>
@@ -98,7 +90,7 @@
 	<!-- Main JS (Do not remove) -->
 	<script src="${pageContext.request.contextPath}/js/main.js"></script>
 
-	<script src="${pageContext.request.contextPath}/ajax/administration/order_editor.js"></script>
+	<script src="${pageContext.request.contextPath}/ajax/new_order.js"></script>
 
 	</body>
 </html>

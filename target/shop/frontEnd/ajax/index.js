@@ -41,8 +41,7 @@ function get_products_by_category(){
             localStorage.setItem("products", JSON.stringify(data));
             for (var i = 0; i < data.length; i++) {
                 $("#tableOfProducts")
-                    .append( '<tr>' +
-                    //.append('<tr onclick="go_to_ordering_products(' + data[i].productId + ')">' +
+                    .append('<tr onclick="go_to_ordering_products(' + data[i].productId + ')">' +
                         '<td>' + data[i].title + '</td>' +
                         '<td>' + data[i].costInteger + '.' + data[i].costFractional + '</td>' +
                         '<td>' + data[i].text + '</td>' + '</tr>');
@@ -54,6 +53,6 @@ function get_products_by_category(){
     });
 };
 
-// function go_to_role_editor(roleId) {
-//     document.location = "role_editor?roleId=" + roleId;
-// }
+function go_to_ordering_products(productId) {
+    window.location.href = "new_order?productId=" + productId;
+}

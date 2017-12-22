@@ -12,8 +12,7 @@ document.addEventListener("DOMContentLoaded", function (){
                         '<td>' + data[i].userId + '</td>' +
                         '<td>' + data[i].login + '</td>' +
                         '<td>' + data[i].email + '</td>' +
-                        '<td>' + data[i].active + '</td>' +
-                        '<td>' + data[i].credentialsNonExpired + '</td>' + '</tr>');
+                        '<td>' + data[i].active + '</td>' + '</tr>');
             };
         },
         error: function (error) {
@@ -23,5 +22,5 @@ document.addEventListener("DOMContentLoaded", function (){
 });
 
 function go_to_user_editor(userId) {
-    document.location = "administration?pageName=user_editor&userId=" + userId;
+    window.location.href = "administration?pageName=user_editor&userId=" + userId;
 }

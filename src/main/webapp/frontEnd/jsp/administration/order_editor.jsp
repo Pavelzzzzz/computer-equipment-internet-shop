@@ -38,32 +38,26 @@
 								<div class="animate-box">
 
 									<div class="form-group">
-										<h2 class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%">Select user</h2>
+										<span class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%; font-size: 24px">Select user</span>
 										<select class="btn select-activate" style="width: 50%" id="select-user"
 												onchange="set_user()">
 										</select>
 									</div>
 
-									<h6></h6>
-
 									<div class="form-group" style="width: 100%">
-										<h2 class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%">Select product</h2>
+										<span class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%; font-size: 24px">Select product</span>
 										<select class="btn select-activate" style="width: 50%" id="select-product"
 												onchange="set_product()">
 										</select>
 									</div>
 
-									<h6></h6>
-
 									<div class="form-group" style="width: 100%">
-										<h2 class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%">Count</h2>
+										<span class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%; font-size: 24px">Count</span>
 										<input class="form-control" style="width: 50%" id="count">
 									</div>
 
-									<h6></h6>
-
 									<div class="form-group">
-										<h2 class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%">Phone</h2>
+										<span class="text-center" style="float: left; width: 30%; margin-left: 10%; margin-right: 10%; font-size: 24px">Phone</span>
 										<input class="form-control" style="width: 50%" id="phone">
 									</div>
 

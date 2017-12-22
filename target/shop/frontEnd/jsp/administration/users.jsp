@@ -41,7 +41,6 @@
 									<th>Login</th>
 									<th>Email</th>
 									<th>Active</th>
-									<th>CredentialsNonExpired</th>
 								</tr>
 								</thead>
 							</table>

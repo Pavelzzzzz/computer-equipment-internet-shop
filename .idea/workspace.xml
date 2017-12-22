@@ -2,514 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85882e6-c112-410c-bd23-04d107fffa23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/fonts/bootstrap/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/fonts/bootstrap/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/fonts/icomoon/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/fonts/icomoon/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/fonts/icomoon/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/images/home-image-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/images/home-image-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/images/home-image-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/images/trainer-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/controllers/PageController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/controllers/api/CategoryController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/controllers/api/GlobalExceptionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/controllers/api/LogonController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/controllers/api/ProductsController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/controllers/api/RegistrationController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/controllers/api/RolesController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/controllers/api/UsersController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/exception/AuthorizationException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/exception/LoginAlreadyExistsException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/exception/LoginIsNotCorrectException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/exception/ServiceException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/FlyWayComponent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/CategoryDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/OrderDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/PasswordDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/ProductDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/RoleDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/UserDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/UserRoleDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/CategoryDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/OrderDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/PasswordDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/ProductDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/RoleDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/UserDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/UserRoleDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/model/CategoryTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/model/OrderTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/model/PasswordTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/model/ProductTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/model/RoleTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/model/UserRoleTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/jdbc/model/UserTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/ManagementCategory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/ManagementOrder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/ManagementPasswordForUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/ManagementProduct.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/ManagementRole.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/ManagementRoleForUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/ManagementUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementCategoryImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementOrderImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementPasswordForUserImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementProductImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleForUserImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementUserImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/model/Category.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/model/Order.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/model/Product.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/model/Role.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/service/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop.war" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/controllers/PageController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/controllers/api/CategoryController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/controllers/api/GlobalExceptionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/controllers/api/LogonController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/controllers/api/ProductsController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/controllers/api/RegistrationController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/controllers/api/RolesController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/controllers/api/UsersController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/exception/AuthorizationException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/exception/LoginAlreadyExistsException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/exception/LoginIsNotCorrectException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/exception/ServiceException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/FlyWayComponent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/CategoryDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/OrderDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/PasswordDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/ProductDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/RoleDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/UserDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/UserRoleDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/CategoryDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/OrderDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/PasswordDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/ProductDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/RoleDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/UserDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/UserRoleDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/model/CategoryTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/model/OrderTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/model/PasswordTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/model/ProductTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/model/RoleTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/model/UserRoleTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/jdbc/model/UserTbl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/ManagementCategory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/ManagementOrder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/ManagementPasswordForUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/ManagementProduct.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/ManagementRole.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/ManagementRoleForUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/ManagementUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementCategoryImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementOrderImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementPasswordForUserImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementProductImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleForUserImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/impl/ManagementUserImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/model/Category.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/model/Order.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/model/Product.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/model/Role.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/service/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/animal-sniffer-annotations-1.14.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/byte-buddy-1.7.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/commons-codec-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/commons-exec-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/commons-logging-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/error_prone_annotations-2.0.18.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/flyway-core-4.2.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/gson-2.8.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/guava-23.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/httpclient-4.5.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/httpcore-4.4.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/j2objc-annotations-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/jackson-annotations-2.9.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/jackson-core-2.9.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/jackson-databind-2.9.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/jsr305-1.3.9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/logback-classic-1.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/logback-core-1.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/mysql-connector-java-5.1.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/selenium-api-3.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/selenium-chrome-driver-3.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/selenium-edge-driver-3.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/selenium-firefox-driver-3.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/selenium-ie-driver-3.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/selenium-java-3.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/selenium-opera-driver-3.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/selenium-remote-driver-3.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/selenium-safari-driver-3.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/selenium-support-3.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/slf4j-api-1.7.25.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-context-4.3.12.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-core-4.3.9.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-expression-4.3.9.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-jdbc-4.3.12.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-security-acl-4.2.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-security-config-4.2.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-security-core-4.2.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-security-taglibs-4.2.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-security-web-4.2.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-tx-4.3.12.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-web-4.3.12.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/lib/spring-webmvc-4.3.12.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/fonts/bootstrap/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/fonts/bootstrap/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/fonts/icomoon/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/fonts/icomoon/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/fonts/icomoon/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/images/home-image-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/images/home-image-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/images/home-image-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/images/trainer-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/CategoryDaoImplTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/OrderDaoImplTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/PasswordDaoTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/ProductDaoImplTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/RoleDaoTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/UserDaoTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/jdbc/dao/impl/UserRoleDaoTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/selenium/Selenium.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementCategoryImplTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementOrderImplTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementPasswordForUserImplTest$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementPasswordForUserImplTest$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementPasswordForUserImplTest$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementPasswordForUserImplTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementProductImplTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleForUserImplTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleImplTest$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleImplTest$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleImplTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementUserImplTest$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/by/pavelzzzzz/spring/shop/service/impl/ManagementUserImplTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/newsblog_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/newsblog_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d4484ed7-930b-4b0d-b8e7-3175485f7792.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/fcbd51dd-a958-4168-9aa3-e3fd12ff9800.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_196.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_4_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_4_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/debug.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newsblog.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readMe.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/PageController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/CategoryController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/GlobalExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/LogonController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/ProductsController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/RegistrationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/RolesController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/UsersController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/exception/AuthorizationException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/exception/LoginAlreadyExistsException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/exception/LoginIsNotCorrectException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/exception/ServiceException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/FlyWayComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/CategoryDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/OrderDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/PasswordDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/ProductDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/RoleDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/UserRoleDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/CategoryDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/OrderDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/PasswordDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/ProductDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/RoleDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/UserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/UserRoleDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/model/CategoryTbl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/model/OrderTbl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/model/PasswordTbl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/model/ProductTbl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/model/RoleTbl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/model/UserRoleTbl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/model/UserTbl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/ManagementCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/ManagementOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/ManagementPasswordForUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/ManagementProduct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/ManagementRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/ManagementRoleForUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/ManagementUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/impl/ManagementCategoryImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/impl/ManagementOrderImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/impl/ManagementPasswordForUserImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/impl/ManagementProductImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleForUserImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/impl/ManagementUserImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/model/Category.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/model/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/model/Product.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/model/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Spring-DAOBean.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Spring-Module.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/FlyWayComponent.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/Spring-DataSourceMySQL.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_01__create-tblSECUser.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_02__create-tblSECRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_03__create-tblSECUserRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_04__create-tblSECPassword.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_05__create-tblSECCategory.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_08__create-tblSECProduct.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_09__create-tblSECOrder.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_01__insert-tblSECUser.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_02__insert-tblSECRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_03__insert-tblSECUserRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_04__insert-tblSECPassword.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_07__insert-tblSECCategory.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_08__insert-tblSECProduct.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_09__insert-tblSECOrder.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dbMySQL.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/category.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/categoty_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/order_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/orders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/product_add.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/product_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/products.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/role_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/roles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/user_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/users.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/logon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/registration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/css/icomoon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/css/superfish.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/fonts/icomoon/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/js/hoverIntent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/js/jquery.stellar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/js/jquery.waypoints.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/js/modernizr-2.6.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/js/superfish.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/about.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/category.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/category_editor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/order_editor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/orders.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/product_add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/product_editor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/products.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/role_editor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/roles.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/user_editor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/users.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/logon.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/navigation.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/registration.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/CategoryDaoImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/OrderDaoImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/PasswordDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/ProductDaoImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/RoleDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/UserDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/UserRoleDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/selenium/Selenium.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/service/impl/ManagementCategoryImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/service/impl/ManagementOrderImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/service/impl/ManagementPasswordForUserImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/service/impl/ManagementProductImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleForUserImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/service/impl/ManagementRoleImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/pavelzzzzz/spring/shop/service/impl/ManagementUserImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/database/Flyway_Spring-DataSourceH2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dbH2.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/sql_script/clean_tables.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/sql_script/insert_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Spring-DAOBean.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Spring-Module.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/database/FlyWayComponent.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/database/Spring-DataSourceMySQL.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1_01__create-tblSECUser.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1_02__create-tblSECRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1_03__create-tblSECUserRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1_04__create-tblSECPassword.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1_05__create-tblSECCategory.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1_08__create-tblSECProduct.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1_09__create-tblSECOrder.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V2_01__insert-tblSECUser.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V2_02__insert-tblSECRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V2_03__insert-tblSECUserRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V2_04__insert-tblSECPassword.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V2_07__insert-tblSECCategory.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V2_08__insert-tblSECProduct.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/migration/V2_09__insert-tblSECOrder.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dbMySQL.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/Spring-DAOBean.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/Spring-Module.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/database/FlyWayComponent.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/database/Spring-DataSourceMySQL.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V1_01__create-tblSECUser.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V1_02__create-tblSECRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V1_03__create-tblSECUserRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V1_04__create-tblSECPassword.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V1_05__create-tblSECCategory.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V1_08__create-tblSECProduct.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V1_09__create-tblSECOrder.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V2_01__insert-tblSECUser.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V2_02__insert-tblSECRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V2_03__insert-tblSECUserRole.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V2_04__insert-tblSECPassword.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V2_07__insert-tblSECCategory.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V2_08__insert-tblSECProduct.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/db/migration/V2_09__insert-tblSECOrder.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/dbMySQL.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/spring-security.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/category.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/categoty_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/order_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/orders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/product_add.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/product_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/products.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/role_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/roles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/user_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/users.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/logon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/registration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/css/icomoon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/css/superfish.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/fonts/icomoon/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/js/hoverIntent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/js/jquery.stellar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/js/jquery.waypoints.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/js/modernizr-2.6.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/js/superfish.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/about.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/category.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/category_editor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/order_editor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/orders.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/product_add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/product_editor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/products.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/role_editor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/roles.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/user_editor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/users.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/logon.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/navigation.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/registration.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/database/Flyway_Spring-DataSourceH2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/dbH2.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sql_script/clean_tables.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/sql_script/insert_data.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/new_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/new_order.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.class" afterPath="$PROJECT_DIR$/target/classes/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.class" afterPath="$PROJECT_DIR$/target/shop/WEB-INF/classes/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.java" afterPath="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/users.js" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/order_editor.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/order_editor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/users.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/users.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/users.js" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/administration/users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/shop/frontEnd/ajax/index.js" afterPath="$PROJECT_DIR$/target/shop/frontEnd/ajax/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/users.jsp" afterPath="$PROJECT_DIR$/target/shop/frontEnd/jsp/administration/users.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -593,7 +98,122 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="order_editor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/order_editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order_editor.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/order_editor.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="59" column="150" lean-forward="false" selection-start-line="59" selection-start-column="150" selection-end-line="59" selection-end-column="150" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_editor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/user_editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logon.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/logon.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categoty_editor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/categoty_editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logon.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/logon.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="43" column="125" lean-forward="false" selection-start-line="43" selection-start-column="103" selection-end-line="43" selection-end-column="125" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_order.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/new_order.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_order.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/new_order.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="43" column="96" lean-forward="false" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -619,7 +239,6 @@
       <find>btn</find>
       <find>btn-send-message</find>
       <find>form-control</find>
-      <find>form-group</find>
       <find>.form-control</find>
       <find>NewsTbl</find>
       <find>NewsId</find>
@@ -639,6 +258,7 @@
       <find>frontEnd/</find>
       <find>Product</find>
       <find>managementProduct</find>
+      <find>form-group</find>
     </findStrings>
     <replaceStrings>
       <replace>Category</replace>
@@ -670,12 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/roles.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_09__create-tblSECOrders.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V2_09__insert-tblSECOrder.sql" />
-        <option value="$PROJECT_DIR$/src/test/resources/sql_script/insert_data.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/model/OrderTbl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/OrderDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/model/UserTbl.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/ManagementOrder.java" />
@@ -710,17 +324,23 @@
         <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/category.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/products.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/roles.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/users.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/navigation.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/orders.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/model/Order.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/product_editor.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/orders.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/order_editor.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/order_editor.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/index.js" />
-        <option value="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/impl/ManagementOrderImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/users.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/new_order.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/order_add.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/users.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/order_add.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/index.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/new_order.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/order_editor.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/new_order.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/order_editor.jsp" />
       </list>
     </option>
   </component>
@@ -950,6 +570,196 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet-shop of computer equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet-shop of computer equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet-shop of computer equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet-shop of computer equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet-shop of computer equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet-shop of computer equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="by" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pavelzzzzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet-shop of computer equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet-shop of computer equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="by" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pavelzzzzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet-shop of computer equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet-shop of computer equipment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="by" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pavelzzzzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -969,9 +779,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="by.sam_solutions.spring.newsblog.exception" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="by.sam_solutions.spring.newsblog.service.impl" />
       <recent name="by.sam_solutions.spring.newsblog.jdbc.dao.impl" />
@@ -982,9 +789,16 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="by.sam_solutions.spring.newsblog.jdbc.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax" />
       <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration" />
       <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
@@ -996,12 +810,8 @@
       <recent name="by.pavelzzzzz.spring.shop.service" />
       <recent name="by.pavelzzzzz.spring.shop.service.model" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd/jsp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/frontEnd" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.sam_solutions.spring.newsblog.exception" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1928,7 +1738,7 @@
       <workItem from="1513777225828" duration="13587000" />
       <workItem from="1513857773048" duration="620000" />
       <workItem from="1513882201666" duration="35000" />
-      <workItem from="1513882603655" duration="299000" />
+      <workItem from="1513882603655" duration="11454000" />
     </task>
     <servers />
   </component>
@@ -1965,7 +1775,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312841000" />
+    <option name="totallyTimeSpent" value="323996000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1987,21 +1797,22 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14924243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14924243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3419244" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61340207" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35223368" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35051546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46735394" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5137457" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28939393" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" x="404" y="98" width="558" height="612" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21649484" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" x="404" y="98" width="558" height="612" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2010,48 +1821,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12954545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3419244" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35223368" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30927834" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12371134" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18181819" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" x="404" y="98" width="558" height="612" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -2266,42 +2039,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/categoty_editor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/model/CategoryTbl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/model/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/LogonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -2418,24 +2155,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/registration.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/logon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -2467,20 +2190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/user_editor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/roles.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -2499,13 +2208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-329">
           <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/navigation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="37" column="102" lean-forward="false" selection-start-line="37" selection-start-column="102" selection-end-line="37" selection-end-column="102" />
         </state>
       </provider>
     </entry>
@@ -2537,14 +2239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/orders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/service/model/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2560,34 +2254,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/order_editor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/order_editor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="58" column="138" lean-forward="false" selection-start-line="58" selection-start-column="138" selection-end-line="58" selection-end-column="138" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="51" column="50" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -2642,14 +2312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/jdbc/dao/impl/OrderDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
@@ -2661,6 +2323,148 @@
             <marker date="1513598921764" expanded="true" signature="1480:1779" ph="INSERT INTO tblSECOrder... " />
             <marker date="1513598921764" expanded="true" signature="1827:2163" ph="UPDATE tblSE... " />
             <marker date="1513598921764" expanded="true" signature="2211:2305" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/user_editor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="42" column="51" lean-forward="false" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/orders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/navigation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="37" column="102" lean-forward="false" selection-start-line="37" selection-start-column="102" selection-end-line="37" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pavelzzzzz/spring/shop/controllers/api/OrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="42" column="73" lean-forward="false" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="948" column="33" lean-forward="false" selection-start-line="948" selection-start-column="23" selection-end-line="948" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/logon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/logon.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="43" column="125" lean-forward="false" selection-start-line="43" selection-start-column="103" selection-end-line="43" selection-end-column="125" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/user_editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/categoty_editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/new_order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/ajax/administration/order_editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/new_order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="43" column="96" lean-forward="false" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frontEnd/jsp/administration/order_editor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="59" column="150" lean-forward="false" selection-start-line="59" selection-start-column="150" selection-end-line="59" selection-end-column="150" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
